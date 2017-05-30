@@ -3,7 +3,7 @@
       <nav>
     <div class="nav-wrapper">
       <router-link to="/"><a href="#" class="brand-logo">UPENT</a></router-link>
-      <ul id="nav" class="right">
+      <ul id="nav-mobile" class="right">
         <li><router-link to="/movies"><a class="nav-item is-tab ">Popular Movies</a></router-link></li>
         <li><router-link to="/populartvshows"><a class="nav-item is-tab ">Popular Shows</a></router-link></li>
         <li><router-link to="/upcomingmovies"><a class="nav-item is-tab ">Upcoming Movies</a></router-link></li>
