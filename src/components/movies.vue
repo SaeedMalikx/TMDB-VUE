@@ -82,16 +82,16 @@ body{
   background: #212121;
 }
 
-.card-imagemain{
+.card-imagemain {
   width: 250px;
   height: 300px;
   margin-bottom: 20px;
 }
-.card-title{
+.card-title {
   background-color:rgba(38,50,56 ,.6);
   color: white;
 }
-.card-overview{
+.card-overview {
   color: white;
   margin: 0 auto 1.8rem auto;
   max-width: 500px;

@@ -5,6 +5,7 @@
           <div class="card grey darken-4 center-align">
             <div class="card-image">
               <img class="backimg" :src="'https://image.tmdb.org/t/p/w1000/' + moviedetail.backdrop_path" v-if="moviedetail.backdrop_path">
+              <img class="card-imageposter" v-if="!moviedetail.backdrop_path">
               <span class="card-title">{{moviedetail.overview}}</span>
             </div>
             <div class="card-overview center-align ">
@@ -37,5 +38,7 @@ export default {
 </script>
 
 <style>
-
+.card-imageposter {
+    height: 400px;
+}
 </style>
