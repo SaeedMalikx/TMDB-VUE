@@ -4,8 +4,8 @@
       <app-movielist :movielist="movielist" v-if="moviepanel" v-on:showmovieinfo="showmoviedetail($event)"></app-movielist>
       </transition>
       <ul class="pagination center-align" v-if="moviepanel">
-        <li class="active"><a @click="changepageback()">LEFT</a></li>
-        <li class="active"><a @click="changepagenext()">RIGHT</a></li>
+        <li class="btn-large"><a @click="changepageback()">LEFT</a></li>
+        <li class="btn-large"><a @click="changepagenext()">RIGHT</a></li>
      </ul>
      <transition name="fade">
       <app-moviedetail :moviedetail="moviedetail" v-if="moviedetailpanel" v-on:goback="backmovie()"></app-moviedetail>
